@@ -1,0 +1,21 @@
+ul.hr {
+            margin: 0;
+            /* Обнуляємо значення відступів */
+            padding: 4px;
+            /* Значання полів */
+        }
+
+        ul.hr li {
+            display: inline;
+            /* Відображати елемент в одну лінію */
+            margin-right: 20px;
+            /* Відступ зліва */
+        }
+
+        H1,
+        H4,
+        H6 {
+            font-family: Arial;
+            font-weight: bold;
+
+        }
