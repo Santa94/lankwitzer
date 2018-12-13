@@ -1,21 +1,60 @@
-ul.hr {
-            margin: 0;
-            /* Обнуляємо значення відступів */
-            padding: 4px;
-            /* Значання полів */
-        }
+@import url('https://fonts.googleapis.com/css?family=Bungee|Work+Sans');
 
-        ul.hr li {
-            display: inline;
-            /* Відображати елемент в одну лінію */
-            margin-right: 20px;
-            /* Відступ зліва */
-        }
+body {
+    max-width: 900px;
+    
+}
+:root {
+   font-family: 'Unna', serif;
+}
 
-        H1,
-        H4,
-        H6 {
-            font-family: Arial;
-            font-weight: bold;
+nav ul.menu {
+    padding-left: 20px
+    
+}
 
-        }
+nav ul.menu li {
+list-style:  none;
+}
+nav ul.menu li a {
+    text-decoration: none;
+    color:black;
+}
+ 
+nav ul.menu li a:hover {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 660px) {
+    
+    header nav ul.menu {
+        display: flex;
+        align-items: center;
+        flex: 1 ;
+    }
+}
+ header nav ul.menu li {
+margin: 0 4%
+ }
+ 
+.banner {
+   
+    background-image: url(../img/db-train.jpg);
+    
+    min-height: 500px;
+  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+   
+@media (min-width: 660px) {
+    
+    header nav {
+        display: flex;
+    }
+}
