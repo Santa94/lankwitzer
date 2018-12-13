@@ -40,7 +40,7 @@ margin: 0 4%
  
 .banner {
    
-    background-image: url(../img/db-train.jpg);
+    background-image: url(../img/bombardier.jpg) ;
     
     min-height: 500px;
   
@@ -57,4 +57,12 @@ margin: 0 4%
     header nav {
         display: flex;
     }
+}
+.about.company .h1 {
+   text-align: center ;
+   
+}
+.about.company .image{
+    float:right;
+   
 }
