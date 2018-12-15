@@ -2,6 +2,7 @@
 
 body {
     max-width: 900px;
+    margin: 0 auto;
     
 }
 :root {
@@ -9,7 +10,7 @@ body {
 }
 
 nav ul.menu {
-    padding-left: 20px
+    padding-left: 20px ;
     
 }
 
@@ -38,31 +39,39 @@ nav ul.menu li a:hover {
 margin: 0 4%
  }
  
-.banner {
-   
-    background-image: url(../img/bombardier.jpg) ;
-    
-    min-height: 500px;
-  
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.banner-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    max-height: 500px;
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    .banner-container img {
+        max-height: 300px;
+    }
 }
 
-   
 @media (min-width: 660px) {
-    
+
     header nav {
         display: flex;
     }
 }
-.about.company .h1 {
-   text-align: center ;
-   
+
+.about-company h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid green;
+    width: 80%;
+    margin: 20px auto;
 }
-.about.company .image{
+.about-company .image{
     float:right;
-   
+
+}
+
+.top-section, .mid-section, .bottom-section {
+    display: flex;
+    align-content: space-around;
+    justify-content: start;
 }
