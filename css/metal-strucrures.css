@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Work+Sans');
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+:root {
+    font-family: 'Unna', serif;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid red;
+    width: 80%;
+    margin: 20px auto;
+}
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container img {
+    background-image: url(../img/solution-consrtraction4.png);
+    background-size: cover;
+    background-position: center;
+    max-height: 900px;
+}
+
+@media (min-width: 300px) and (max-width: 660px) {
+    .banner-container img {
+        max-height: 300px;
+    }
+}
