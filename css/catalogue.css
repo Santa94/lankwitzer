@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Work+Sans');
+body {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+:root {
+    font-family: 'Unna', serif;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid red;
+    width: 80%;
+    margin: 20px auto;
+}
+ .main-menu nav{
+    text-decoration: none; ??????
+    
+}
+
+header p {
+    text-align: center ;
+}
+
+.product-card img{
+    display: block;
+    width: 100%;
+} 
+    
+.product-card .button-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 400px) {
+    .product-list {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 600px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 800px) {
+    .product-list {
+        grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+  
