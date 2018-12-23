@@ -24,10 +24,10 @@ h2 {
 }
 
 .banner-container img {
-    background-image: url(../img/solution-consrtraction4.png);
+    background-image: url(../img/solution-plastic3.jpg);
     background-size: cover;
     background-position: center;
-    max-height: 890px;
+    max-height:890px;
 }
 
 @media (min-width: 300px) and (max-width: 660px) {
