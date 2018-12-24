@@ -87,6 +87,7 @@ h1 {
 
 .top-section-container {
     justify-content : flex-start;
+    display: flex ;
 }
 
 .top-section-container img {
