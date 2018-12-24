@@ -71,9 +71,9 @@ h1 {
     margin: 20px auto;
 }
 
-@media (min-width: 300px) and (max-width: 660px) {
+@media ( min-width: 660px) {
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
@@ -83,28 +83,33 @@ h1 {
     background-color: lightgrey;
 }
 
+.top-section-container p {
 
+    margin-left: 20px;
 
-.top-section-container {
-    justify-content: flex-start;
-    display: flex;
 }
 
 .top-section-container img {
     max-height: 380px;
-      background-image: url(../img/production.jpg);
+}
+
+.top-section-container {
+    display: flex;
+    justify-content: flex-start;
 }
 
 
-@media (min-width: 300px) and (max-width: 660px) {
+@media (min-width: 300px) and (max-width: 720px) {
     .top-section-container img {
-        max-height: 250px;
+        max-height: 300px;
+        text-align: : center;
     }
 }
 
+}
 
 .mid-section-container p {
-    justify-content: flex-start;
+
     margin-left: 20px;
     margin-right: 10px;
     margin-top: -8px;
@@ -117,16 +122,14 @@ h1 {
 
 .mid-section-container {
     display: flex;
-
+    justify-content: space-between;
 }
-
 
 @media (min-width: 300px) and (max-width: 850px) {
     .mid-section-container img {
         display: none;
     }
 }
-
 
 .bottom-section-container img {
     width: 900px;
@@ -141,7 +144,6 @@ h1 {
 
 
 
-
 nav ul.list li {
     list-style: none;
 
@@ -150,11 +152,14 @@ nav ul.list li {
 nav ul.list li a {
     text-decoration: none;
     color: black;
+
 }
 
 nav ul.list li a:hover {
     text-decoration: underline;
 }
+
+
 
 #solutions,
 #clients {
@@ -163,13 +168,20 @@ nav ul.list li a:hover {
     justify-content: center;
 }
 
-h4 #contacts {
+@media (min-width: 300px) and (max-width: 850px) {
+    img #solution {
+        display: none;
+    }
+}
+
+#contacts h4 {
     text-align: center;
 }
 
 #contacts {
     border-bottom: 4px solid black;
     width: 100%;
+    
 }
 
 .information {
@@ -186,8 +198,12 @@ h4 #contacts {
 
 }
 
+@media (min-width: 660px) {
+    .information {
+        display: flex;
 
-
+    }
+}
 
 .login-page {
     width: 360px;
@@ -231,7 +247,8 @@ h4 #contacts {
     padding: 15px;
     color: white;
     font-size: 14px;
-
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
     cursor: pointer;
 }
 
@@ -247,7 +264,6 @@ h4 #contacts {
 }
 
 .footer {
-
     text-align: right;
 
 }
