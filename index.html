@@ -8,6 +8,7 @@
     <title>Lankwitzer</title>
 
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/index-layout.css" rel="stylesheet">
 
 </head>
 
@@ -16,19 +17,20 @@
         <img src="img/logo.png" alt="logo">
         <nav>
             <ul class="menu">
-                <li><a href="#">ПРО НАС</a></li>
-                <li><a href="#">КАТАЛОГ</a></li>
-                <li><a href="#">ГОТОВІ РІШЕННЯ</a></li>
-                <li><a href="#">НАШІ КЛІЄНТИ</a></li>
-                <li><a href="#">КОНТАКТИ</a></li>
+                <li><a href='#about-company'>ПРО НАС</a></li>
+                <li><a href='#catalogue'>КАТАЛОГ</a></li>
+                <li><a href='#solutions'>ГОТОВІ РІШЕННЯ</a></li>
+                <li><a href='#clients'>НАШІ КЛІЄНТИ</a></li>
+                <li><a href='#contacts'>КОНТАКТИ</a></li>
             </ul>
         </nav>
     </header>
+    <main>
     <div class="banner-container">
         <img src="img/bombardier.jpg" alt="train">
     </div>
 
-    <div class="about-company">
+    <div id="about-company">
         <h1>ПРО НАС</h1>
     </div>
 
@@ -57,18 +59,9 @@
         <img src="img/statistics.png" alt="statistics">
     </div>
 
-    <div class="catalogue">
+    <div id="catalogue">
         <h1> КАТАЛОГ</h1>
-    <section>
-        <h1>AJAX JSON Sample</h1>
-        <div>
-            <p>Client name: <span class="client-name"></span></p>
-            <p>Account balance: <span class="balance"></span></p>
-        </div>
-        <button class="get-json-ajax">Get JSON with AJAX</button>
-     
-        
-    </section>
+   
 
         <nav>
             <ul class="list">
@@ -85,7 +78,7 @@
     </div>
 
     <h1> ГОТОВІ РІШЕННЯ</h1>
-    <div class="solutions">
+    <div id="solutions">
         <img src="img/solutions.png" alt="solutions"> </div>
     <nav>
         <ul class="list">
@@ -100,11 +93,11 @@
 
 
     <h1> НАШІ КЛІЄНТИ</h1>
-    <div class="clients">
+    <div id="clients">
         <img src="img/clients.png" alt="clients">
 
     </div>
-    <div class="contacts">
+    <div id="contacts">
         <h1>КОНТАКТИ</h1>
 
 

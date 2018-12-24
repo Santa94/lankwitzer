@@ -71,9 +71,9 @@ h1 {
     margin: 20px auto;
 }
 
-@media ( min-width: 660px) {
+@media (min-width: 300px) and (max-width: 660px)  {
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 
@@ -83,21 +83,20 @@ h1 {
     background-color: lightgrey;
 }
 
-.top-section-container p {
-    justify-content: right;
-    margin-left: 20px;
 
-}
+
+
 
 .top-section-container img {
     max-height: 380px;
 }
 
-.top-section-container {
-    display: flex;
-    justify-content: flex-start;
-}
 
+@media (min-width: 300px) and (max-width: 660px) {
+    .top-section-container img {
+        max-height: 300px;
+    }
+}
 
 
 .mid-section-container p {
@@ -114,14 +113,25 @@ h1 {
 
 .mid-section-container {
     display: flex;
-    justify-content: space-between;
+    
 }
 
+
+@media (min-width: 300px) and (max-width: 850px) {
+    .mid-section-container img {
+        display:  none ;
+    }
+}
 
 
 .bottom-section-container img {
     width: 900px;
 
+}
+@media (min-width: 300px) and (max-width: 850px) {
+    .bottom-section-container img {
+        display:  none ;
+    }
 }
 
 
@@ -141,18 +151,18 @@ nav ul.list li a:hover {
     text-decoration: underline;
 }
 
-.solutions,
-.clients {
+#solutions,
+#clients {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contacts h4 {
+h4 #contacts {
     text-align: center;
 }
 
-.contacts {
+#contacts {
     border-bottom: 4px solid black;
     width: 100%;
 }
@@ -216,7 +226,7 @@ nav ul.list li a:hover {
     padding: 15px;
     color: white;
     font-size: 14px;
-    
+
     cursor: pointer;
 }
 
@@ -232,6 +242,7 @@ nav ul.list li a:hover {
 }
 
 .footer {
+
     text-align: right;
 
 }

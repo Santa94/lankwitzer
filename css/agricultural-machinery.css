@@ -24,10 +24,10 @@ h2 {
 }
 
 .banner-container img {
-    background-image: url(../img/solution-combine6.jpg);
+    background-image: url(../img/solution-combine.jpg);
     background-size: cover;
     background-position: center;
-    max-height:1100px;
+    max-height:1000px;
 }
 
 @media (min-width: 300px) and (max-width: 660px) {
