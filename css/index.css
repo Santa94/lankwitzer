@@ -85,7 +85,9 @@ h1 {
 
 
 
-
+.top-section-container {
+    justify-content : flex-start;
+}
 
 .top-section-container img {
     max-height: 380px;
