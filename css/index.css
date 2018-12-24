@@ -79,11 +79,7 @@ h1 {
 
 
 .top-section-container,
-.mid-section-container,
-#catalogue ,
-#solutions ,
-#contacts
-{
+.mid-section-container {
     background-color: lightgrey;
 }
 
@@ -106,7 +102,7 @@ h1 {
 @media (min-width: 300px) and (max-width: 720px) {
     .top-section-container img {
         max-height: 300px;
-       
+
     }
 }
 
@@ -185,7 +181,7 @@ nav ul.list li a:hover {
 #contacts {
     border-bottom: 4px solid black;
     width: 100%;
-    
+
 }
 
 .information {
