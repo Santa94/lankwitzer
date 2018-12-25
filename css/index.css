@@ -256,7 +256,7 @@ nav ul.list li a:hover {
 margin-top: 10px ;
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: rgba(200 201 199 0.5);
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
