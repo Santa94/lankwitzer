@@ -28,7 +28,11 @@ header p {
     display: block;
     width: 100%;
 } 
-    
+.product-list {
+    display: grid;
+    /*height: 100px;*/
+}
+
 .product-card .button-container {
     display: flex;
     justify-content: space-around;
@@ -37,7 +41,7 @@ header p {
 
 @media (min-width: 400px) {
     .product-list {
-        display: grid;
+        /*display: grid;*/
         grid-gap: 5px;
         grid-template-columns: 1fr 1fr 1fr;
     }
