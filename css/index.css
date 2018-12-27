@@ -26,7 +26,7 @@ header img {
     justify-content: center;
 }
 
-.banner-container img {
+baneer-container img {
     width: 100%;
 }
 
@@ -189,8 +189,18 @@ nav ul.list li a:hover {
     text-decoration: underline;
 }
 
+#clients {
+    width: 890px ;
+    justify-content: flex-start;
+}
 
-
+#clients img {
+    display:block ;
+}
+ 
+#clients ul  {
+    margin-left: -350px;
+}
 #solutions,
 #clients {
     display: flex;
