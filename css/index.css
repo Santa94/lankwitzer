@@ -78,7 +78,7 @@ h1 {
 
 .top-section-container,
 .mid-section-container {
-    background: rgba(200 201 199 0.5);
+    background: RGBA(200 201 199 0.5);
     width: 100%;
 }
 
@@ -226,9 +226,7 @@ nav ul.list li a:hover {
      max-height: 50px;
      flex-basis: 0;
  }
- .information {
-     flex-direction: row;
- }
+
  
 @media (min-width: 300px) and (max-width: 650px) {
     .information {
@@ -276,8 +274,6 @@ form.button {
     padding: 15px;
     color: white;
     font-size: 14px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
     cursor: pointer;
 }
 
