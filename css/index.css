@@ -307,9 +307,10 @@ form.button {
 
 .footer img {
     max-height: 50px;
-}
-
-.footer {
-    text-align: right;
-}
-
+    
+ }
+ .footer {
+  text-align: right;  
+    
+ }
+ 
