@@ -221,27 +221,20 @@ nav ul.list li a:hover {
 
 }
 
-.information {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    max-width: 850px;
-    margin-left: 80px;
-
-}
-
+ .information img{
+ display:flex;
+     max-height: 50px;
+     flex-basis: 0;
+ }
+ .information {
+     flex-direction: row;
+ }
+ 
 @media (min-width: 300px) and (max-width: 650px) {
     .information {
         flex-direction: column;
     }
 }
-
- .information img {
-     max-height: 50px;
-     flex-basis: 0;
- }
- 
-
 
 .login-page {
     width: 360px;
