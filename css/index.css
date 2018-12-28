@@ -236,23 +236,12 @@ nav ul.list li a:hover {
     }
 }
 
-.image1,
-.image2,
-.image3 {
-    flex-basis: 0;
-}
+ .information img {
+     max-height: 50px;
+     flex-basis: 0;
+ }
+ 
 
-.image1 img {
-    max-height: 130px;
-}
-
-.image2 img {
-    max-height: 140px;
-}
-
-.image3 img {
-    max-height: 140px;
-}
 
 .login-page {
     width: 360px;
@@ -305,7 +294,7 @@ form.button {
     background: blue;
 }
 
-.footer img {
+ .footer img {
     max-height: 50px;
     
  }
@@ -314,3 +303,4 @@ form.button {
     
  }
  
+
