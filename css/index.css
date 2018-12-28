@@ -191,10 +191,10 @@ nav ul.list li a:hover {
 
 #clients {
     width: 890px ;
-    justify-content: flex-start;
+    display: inline-block;
 }
 
-#clients img {
+.clientList img {
     display:block ;
 }
  
