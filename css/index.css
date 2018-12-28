@@ -4,8 +4,6 @@ body {
     margin: 0 auto;
     max-width: 980px;
 
-
-
     background: linear-gradient(white, transparent),
     linear-gradient(to top left, white, transparent),
     linear-gradient(to top right, grey, transparent);
@@ -20,6 +18,29 @@ header img {
     max-height: 70px;
 }
 
+nav ul.menu {
+    padding-left: 20px
+
+}
+
+nav ul.menu li {
+list-style:  none;
+}
+nav ul.menu li a {
+    text-decoration: none;
+    color:black;
+}
+
+nav ul.menu li a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 670px) {
+
+    header nav {
+        display: flex;
+    }
+}
+
 .banner-container {
     display: flex;
     align-items: center;
@@ -30,12 +51,8 @@ baneer-container img {
     width: 100%;
 }
 
-@media (min-width: 660px) {
 
-    header nav {
-        display: flex;
-    }
-}
+
 
 h1 {
     text-align: center;
@@ -189,18 +206,7 @@ nav ul.list li a:hover {
     text-decoration: underline;
 }
 
-#clients {
-    width: 890px ;
-    display: inline-block;
-}
 
-.clientList img {
-    display:block ;
-}
- 
-#clients ul  {
-    margin-left: -350px;
-}
 #solutions,
 #clients {
     display: flex;
