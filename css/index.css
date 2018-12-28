@@ -12,6 +12,10 @@ body {
 :root {
     font-family: 'Unna', serif;
 }
+.container {
+     margin-right: auto;
+    margin-left: auto;
+}
 
 header img {
     max-height: 70px;
@@ -371,3 +375,6 @@ form.button {
     text-align: right;
 
 }
+
+#carouselOffers img {
+    max-height: 550px;}
