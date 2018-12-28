@@ -292,7 +292,7 @@ nav ul.list li a:hover {
 .contact-info .item span b {
     font-weight: normal;
     font-size: 18px;
-    font-family:'Unna', serif;
+    font-family: 'Unna', serif;
 }
 
 .contact-info .item span a {
@@ -305,55 +305,61 @@ nav ul.list li a:hover {
 }
 
 .login-page {
-  width: 360px;
-  padding: 1% 0 0;
-  margin: auto;
-   font-family: 'Unna', serif;
- 
+    width: 360px;
+    padding: 1% 0 0;
+    margin: auto;
+    font-family: 'Unna', serif;
 
 }
+
 .form {
-margin-top: 10px ;
-  position: relative;
-  z-index: 1;
-  background: crimson;
-  max-width: 360px;
-  margin: 0 auto 100px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    background: crimson;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 
 .form input {
     font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin:0 0 0 0;
-  padding: 22px;
-  box-sizing: border-box;
-  font-size: 14px;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 0 0;
+    padding: 22px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input#comment {
+    margin-bottom: 10px;
 }
 
 form.button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background:red;
-  width: 50%;
-  border: 0;
-  padding: 15px;
-  color: white;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer; 
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: red;
+    width: 50%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
 }
 
-  .button:hover,.form button:active,.form button:focus {
-  background: grey;
+.button:hover,
+.form button:active,
+.form button:focus {
+    background: grey;
 }
 
 .footer img {
