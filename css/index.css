@@ -4,6 +4,8 @@ body {
     margin: 0 auto;
     max-width: 980px;
 
+
+
     background: linear-gradient(white, transparent),
     linear-gradient(to top left, white, transparent),
     linear-gradient(to top right, grey, transparent);
@@ -16,29 +18,28 @@ body {
 
 header img {
     max-height: 70px;
+
 }
 
 nav ul.menu {
     padding-left: 20px
-
 }
 
 nav ul.menu li {
-list-style:  none;
+    list-style: none;
 }
+
 nav ul.menu li a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 nav ul.menu li a:hover {
     text-decoration: underline;
 }
-@media (min-width: 670px) {
 
-    header nav {
-        display: flex;
-    }
+header nav ul.menu li {
+    margin: 0 4%
 }
 
 .banner-container {
@@ -47,12 +48,19 @@ nav ul.menu li a:hover {
     justify-content: center;
 }
 
-baneer-container img {
+.banner-container img {
     width: 100%;
+
 }
 
 
 
+@media (min-width: 670px) {
+
+    header nav {
+        display: flex;
+    }
+}
 
 h1 {
     text-align: center;
@@ -72,7 +80,7 @@ h1 {
 .top-section-container,
 .mid-section-container {
 
-    background-color: lightgrey;
+    background: rgba(200 201 199 0.5);
 
     width: 100%;
 
@@ -85,7 +93,7 @@ h1 {
 }
 
 .top-section-container img {
-    max-height: 340px;
+    max-height: 380px;
 }
 
 .top-section-container {
@@ -107,7 +115,7 @@ h1 {
 
     margin-left: 20px;
     margin-right: 10px;
-    margin-top: 8px;
+    margin-top: -8px;
 
 }
 
@@ -182,7 +190,7 @@ td {
 }
 
 td {
-    background:  lightgrey;
+    background: rgba(200 201 199 0.1);
 }
 
 @media (min-width: 350px) and (max-width: 849px) {
@@ -207,6 +215,7 @@ nav ul.list li a:hover {
 }
 
 
+
 #solutions,
 #clients {
     display: flex;
@@ -227,7 +236,7 @@ nav ul.list li a:hover {
 #contacts {
     border-bottom: 4px solid black;
     width: 100%;
-
+    
 }
 
 .information {
@@ -235,7 +244,7 @@ nav ul.list li a:hover {
     justify-content: space-between;
     flex-wrap: nowrap;
     max-width: 850px;
-    margin-left: 60px;
+    margin-left: 80px;
 
 }
 
@@ -245,11 +254,12 @@ nav ul.list li a:hover {
     }
 }
 
-
 .image1,
 .image2,
 .image3 {
     flex-basis: 0;
+
+
 }
 
 .image1 img {
@@ -307,7 +317,8 @@ form.button {
     color: white;
     font-size: 14px;
     -webkit-transition: all 0.3 ease;
-     cursor: pointer;
+    transition: all 0.3 ease;
+    cursor: pointer;
 }
 
 .button:hover,
